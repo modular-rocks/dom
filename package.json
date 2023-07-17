@@ -1,16 +1,16 @@
 {
   "name": "@modular-rocks/dom",
-  "version": "0.0.1-development",
+  "version": "0.0.4-development",
   "description": "Dom convenience methods for a vanilla frontend",
-  "main": "./dist/index.js",
   "exports": {
+    "./package.json": "./package.json",
     ".": {
-      "default": "./dist/index.js",
-      "types": "./dist/declarations.d.ts"
-    },
-    "./package.json": "./package.json"
+      "types": "./dist/declarations.d.ts",
+      "default": "./dist/index.js"
+    }
   },
-  "types": "./dist/declarations.d.ts",
+  "types": "dist/declarations.d.ts",
+  "main": "dist/index.js",
   "engines": {
     "node": "16.x"
   },
